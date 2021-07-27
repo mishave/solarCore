@@ -10,7 +10,6 @@ def writeSheet(arg1, arg2, arg3):
     row = [arg1, arg2, arg3]
     sh.append_row(row, value_input_option='USER_ENTERED',insert_data_option='INSERT_ROWS')
 
-    print(sh.get('A1'))
 
 
 def readOneWire():
